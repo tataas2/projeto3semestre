@@ -131,8 +131,6 @@ export default function Random() {
 
             {deckData && mostrarResultado && (
               <div id="dados">
-                <p>transacaoId: {deckData.transacaoId}</p>
-                <p>categoriaId: {deckData.categoriaId}</p>
                 <p>hash_transacao: {deckData.hash_transacao}</p>
                 <p>hash_anterior: {deckData.hash_anterior}</p>
                 <p>assinaturaEletronica: {deckData.assinaturaEletronica}</p>
