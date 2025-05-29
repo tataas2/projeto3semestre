@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "postinstall": "npm rebuild sharp",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -15,7 +16,8 @@
     "mongodb": "^6.16.0",
     "next": "15.2.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
